@@ -1,0 +1,87 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+   background-color: antiquewhite;
+   background-image: url(../images/960x0.webp);
+   background-repeat: no-repeat;
+   background-size: 100%;
+    
+}
+.centered{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    row-gap: 15px;
+    padding: 30px;
+    backdrop-filter: blur(30px);
+
+}
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.721);
+}
+
+.header {
+    width: 100vw;
+
+}
+
+.addbtn {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    width: fit-content;
+    margin: auto;
+    text-decoration: none;
+    color: bla;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+
+}
+.heding{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px;
+    color: red;
+    font-weight: 900;
+}
+
+.tabla {
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.tbila{
+    backdrop-filter: blur(30px);
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+th,
+td {
+    padding: 10px 5px;
+
+}
